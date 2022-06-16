@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: gainsboro;
+}
+
+.header {
+    height: 120px;
+    background-color: white;
+}
+
+.logo {
+    background-image: url('../assets/logomarca.png');
+    background-size: cover;
+    border-top: 1px solid transparent;
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+.opcoes {
+    float: right;
+    margin-top: 20px;
+}
+
+.search {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  display: block;
+  text-align: right;
+  margin: 10px 20px 0 0;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu nav ul {
+    text-align: right;
+    margin: 10px 20px 0 0;
+}
+
+.menu nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.menu nav a {
+    background: #C28A70;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.menu nav a:hover {
+    background-color: #DCC2B6;
+    color: #737373;
+}
+
+.banner {
+    background-image: url('../assets/paris-noite.jpg');
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.banner-texto {
+    text-align: center;
+    color:white;
+    margin-top: 100px;
+    background-color:#c28a7095;
+    width: 35%;
+    margin-left: 25px;
+}
+
+.banner-texto h1 {
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px 0.2px rgb(43, 29, 29);
+    letter-spacing: 2px;
+}
+
+.banner-texto p {
+    background-color: rgba(133, 89, 95, 0.81);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid #DCC2B6;
+}
+
+.botao nav ul {
+    text-align: left;
+}
+
+.botao nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+}
+
+.botao nav a {
+    background: #C28A70;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.botao nav a:hover {
+    background-color: #DCC2B6;
+    color: #737373;
+}
+
+.conteudo {
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+    background-color: white;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 0px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card figcaption {
+    color: #C28A70;
+    text-align: center;
+    font-size:medium;
+    padding: 10px;
+    margin: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card p {
+    text-align: center;
+    font-size:small;
+    padding: 15px;
+    color: #737373
+}
